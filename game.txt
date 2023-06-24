@@ -1,0 +1,32 @@
+scanner sc=new Scanner(System.in)
+int n=sc.nextInt();
+int t=sc.nextInt();
+int leap=sc.nextInt();
+int current=0;
+int a[]=new int[n]
+for(i=0;i<t;i++){
+	Sysout("Enter elements")
+	for(int j=0;j<n;j++){
+	item=sc.nextInt();
+	a[j]=item;
+	}
+	current=0;
+	int i=0;
+	count=0;
+	while(current!=n-1){
+		if(a[i-1]==0){
+			current=i-1;
+				}
+		elseif(a[i+1]==0)
+			current=i+1;
+		elseif(a[i+leap]==0)
+			current=i+leap;
+		if(count>10){
+		"no"
+		break;}
+		}
+		if(current==n-1)
+			"yes"
+
+
+
