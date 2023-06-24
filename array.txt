@@ -1,0 +1,29 @@
+
+
+
+	0	2	2	0
+	[0,0]	[0,1]	[0,2]	[0,3]
+	1	0	0	2
+	[1,0]	[1,1]	[1,2]	[1,3]
+	1	0	0	2
+	[2,0]	[2,1]	[2,2]	[2,3]
+	0	1	1	0
+	[3,0]	[3,1]	[3,2]	[3,3]	
+
+BEan factory and application context :2container
+Injection: Constructor and setter
+default is singleton other is prototype
+Autowire:by name by type none constructor
+Anything ending with factory is implementation of beanfactory
+If there are multiple beans of the same type,we can use qualifier annotaion on the set method and specify the name of the bean in the qualifier
+
+
+Lazy Loading lazy-init
+default value is false whihc means all beans are instantiated in the container only when the getbean method is called from the main method
+lazy-init="true" means the beans are initiated as soon as the ioc container starts up
+
+<context:annotation-config/> is needed to enable annotation in spring
+@Autowired is only applicable for stereotype.
+@Autowiring is done in the beans.xml file with the autowire attribute of a bean definition.
+@
+	

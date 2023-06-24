@@ -1,0 +1,43 @@
+https://340911032725.signin.aws.amazon.com/console    Tom 
+340911032725   tom   MeghaAniTitus3060
+
+https://340911032725.signin.aws.amazon.com/console     jerry
+340911032725   jerry	MeghaAniTitus3070
+
+https://340911032725.signin.aws.amazon.com/console     bob	MeghaAniTitus3080
+
+https://340911032725.signin.aws.amazon.com/console	noddy	MeghaAniTitus3080
+https://340911032725.signin.aws.amazon.com/console	daist	MeghaAniTitus3080
+https://340911032725.signin.aws.amazon.com/console	krisitna MeghaAniTitus3080	
+
+ORDER OF CREATION
+created groups devs testers admin
+created iam users 
+added policies to groups
+
+
+Endpoint: myonlinestore.cqgxlbkdjhdb.us-east-2.rds.amazonaws.com
+port	 :3306
+
+login to admin
+search rds
+create database
+
+
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://myonlinestore.cqgxlbkdjhdb.us-east-2.rds.amazonaws.com/awsrdsmysql
+spring.datasource.username=admin
+spring.datasource.password=anwarsahil
+spring.jpa.hibernate.ddl-auto=create
+
+<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+
+
+
+vpc

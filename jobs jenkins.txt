@@ -1,0 +1,4 @@
+job1-compile compile	compile 	NA
+job2- codereive	;-p metrics pmd:pmd	**/pmd.xml
+job4-mettric test	metric check	cobertura	
+job5-package	package	package	NA

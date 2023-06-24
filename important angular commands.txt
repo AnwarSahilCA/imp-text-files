@@ -1,0 +1,18 @@
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUse
+ng server --open
+Y
+Set-ExecutionPolicy RemoteSigned -Scope Curr
+ng serve --open
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUse
+ng server --open
+
+
+npm run ng new firstng
+npm run ng -version
+
+npm i -g @angular/cli@latest
+
+
+
+
+npm i -g typescript@3.1.6 --save-dev --save-exact
